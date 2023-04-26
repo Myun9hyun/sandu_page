@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC
+        "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+        "http://java.sun.com/dtd/web-app_2_3.dtd" >
+<web-app>
+
+  <!-- JSP 파일 매핑 -->
+  <servlet>
+    <servlet-name>join</servlet-name>
+    <jsp-file>/join.jsp</jsp-file>
+  </servlet>
+
+  <servlet>
+    <servlet-name>board</servlet-name>
+    <jsp-file>/board.jsp</jsp-file>
+  </servlet>
+
+  <servlet>
+    <servlet-name>write</servlet-name>
+    <jsp-file>/write.jsp</jsp-file>
+  </servlet>
+
+  <servlet>
+    <servlet-name>view</servlet-name>
+    <jsp-file>/view.jsp</jsp-file>
+  </servlet>
+
+  <!-- URL 매핑 -->
+  <servlet-mapping>
+    <servlet-name>join</servlet-name>
+    <url-pattern>/join</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>board</servlet-name>
+    <url-pattern>/board</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>write</servlet-name>
+    <url-pattern>/write</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>view</servlet-name>
+    <url-pattern>/view</url-pattern>
+  </servlet-mapping>
+
+</web-app>
